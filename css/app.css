@@ -1,0 +1,125 @@
+body{
+  font-family: sans-serif;
+  background-image: url("../image.png");
+  background-repeat: repeat;
+}
+
+h1{
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.rock {
+  content: url("http://1000awesomethings.com/wp-content/uploads/2008/08/rock.jpg");
+  height: 200px;
+  width: 200px;
+  display: inline-flex;
+  margin:20px;
+}
+
+.image:hover{
+  /*color: rgba(255, 0, 0, .5);*/
+  box-shadow: 0 0 15px 10px rgba(255, 0, 0, 0.5);
+  /*border: 3px solid red;*/
+}
+
+.scissors {
+  content: url("http://1000awesomethings.com/wp-content/uploads/2008/08/scissors.jpg");
+  height: 200px;
+  width: 200px;
+  display: inline-flex;
+  margin:20px;
+}
+
+.paper {
+content: url("http://1000awesomethings.com/wp-content/uploads/2008/08/paper.jpg");
+height: 200px;
+width: 200px;
+display:inline-flex;
+margin:20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.score {
+  display: inline-flex;
+  /*border: 1px black solid;*/
+  height: 50px;
+  width: auto;
+  margin: 20px;
+  text: center;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#win {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#loss {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#game {
+  visibility: hidden;
+}
+
+#you {
+  height: 200px;
+  width: 200px;
+}
+
+#computer {
+  height: 200px;
+  width: 200px;
+}
+
+#outcome {
+  font-size: 4rem;
+}
+
+/*BUTTON*/
+
+.myButton {
+    -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+    -webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+    background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+    background-color:#c62d1f;
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    border-radius:18px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+    background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+    background-color:#f24437;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
